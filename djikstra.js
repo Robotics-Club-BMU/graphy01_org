@@ -1,11 +1,6 @@
-/**
- * Created by aarnavjindal on 19/03/20.
- */
 
 function createGraph(V,E){
-    // V - Number of vertices in graph
-    // E - Number of edges in graph (u,v,w)
-    let adj_list = []; // Adjacency list
+    let adj_list = []; 
     for(let i = 0 ; i < V ; i++){
         adj_list.push([]);
     }
